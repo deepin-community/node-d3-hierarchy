@@ -1,0 +1,5 @@
+echo "Disabled some tests: test/pack requires benchmark module"
+tape 'test/hierarchy/*.js'
+tape 'test/treemap/*.js'
+tape 'test/*.js'
+

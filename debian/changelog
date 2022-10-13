@@ -1,0 +1,71 @@
+node-d3-hierarchy (1.1.8-4) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Fix test (circular JSON display changed) (Closes: #997574)
+
+ -- Yadd <yadd@debian.org>  Tue, 26 Oct 2021 09:55:24 +0200
+
+node-d3-hierarchy (1.1.8-3) unstable; urgency=medium
+
+  [ Xavier Guimard ]
+  * Add "Multi-Arch: foreign"
+
+  [ Pirate Praveen ]
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Enable nocheck build profile
+  * Drop node unused debian/webpack.config.js (we switched to rollup)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 15 Dec 2020 20:22:23 +0530
+
+node-d3-hierarchy (1.1.8-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Chris Lamb ]
+  * Make the build reproducible (Closes: #930814)
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 04 Sep 2020 06:14:20 +0200
+
+node-d3-hierarchy (1.1.8-1) unstable; urgency=medium
+
+  * New upstream version 1.1.8
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Switch to rollup from webpack (rollup in main now)
+  * Switch to pkg-js-tools for tests
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 19 Jun 2019 18:25:03 +0530
+
+node-d3-hierarchy (1.1.5-2) unstable; urgency=medium
+
+  * Use webpack to build umd module like upstream
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jan 2018 11:33:22 +0530
+
+node-d3-hierarchy (1.1.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #878118)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 10 Oct 2017 13:28:00 +0530
