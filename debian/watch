@@ -2,4 +2,7 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-d3-hierarchy-$1/ \
- https://github.com/d3/d3-hierarchy/tags .*/archive/.*/v?([\d\.]+).tar.gz
+ https://github.com/d3/d3-hierarchy/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-d3-hierarchy,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-d3-hierarchy-$1/" \
+ https://registry.npmjs.org/@types/d3-hierarchy https://registry.npmjs.org/@types/d3-hierarchy/-/d3-hierarchy-([\d\.]+)@ARCHIVE_EXT@ group
