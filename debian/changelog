@@ -1,3 +1,18 @@
+node-d3-hierarchy (1.1.9+~1.1.8-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript declarations
+  * New upstream version 1.1.9+~1.1.8
+
+ -- Yadd <yadd@debian.org>  Sat, 09 Sep 2023 18:29:13 +0400
+
+node-d3-hierarchy (1.1.8-5) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency on nodejs
+
+ -- Paul Gevers <elbrus@debian.org>  Thu, 30 Jun 2022 13:40:34 +0200
+
 node-d3-hierarchy (1.1.8-4) unstable; urgency=medium
 
   * Team upload
